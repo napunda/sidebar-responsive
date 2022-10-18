@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1e69e5771b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js"></script>
+    <title>Sidebar Responsive</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="sidebar">
+        <div>
+          <div class="header">
+            <img id="logo" src="/assets/logo.svg" alt="Logo" />
+            <a onclick="openmenu()" id="toogleMenu" href="#">
+              <img src="/assets/menu.svg" />
+            </a>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Buscar" />
+            <a href="#">
+              <img src="/assets/search.svg" alt="" />
+            </a>
+          </div>
+          <div class="nav">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="/assets/grid.svg" alt="" /><span id="nav-1"
+                    >Dashboard</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="/assets/pet.svg" alt="" /><span id="nav-2"
+                    >Pets</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="/assets/user.svg" alt="" /><span id="nav-3"
+                    >Clientes</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/assets/user-md.svg" alt="" /><span id="nav-4"
+                    >Vets</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="/assets/settings.svg" alt="" /><span id="nav-5"
+                    >Ajustes</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="user-info">
+          <div class="info">
+            <img src="/assets/avatar.png" alt="" />
+            <div class="name-text">
+              <span class="name">Eleonora Pinto</span>
+              <span class="role">Supervisora Geral</span>
+            </div>
+          </div>
+          <a href="#">
+            <img src="/assets/log-out.svg" alt="" />
+          </a>
+        </div>
+      </section>
+      <section class="dashboard"><span>Dashboard</span></section>
+    </main>
+  </body>
+</html>
